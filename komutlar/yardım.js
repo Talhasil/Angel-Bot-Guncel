@@ -2,7 +2,7 @@ module.exports = {
   name:"yardım",
   aliases:"help",
   code:`
-  $author[1;Flora Bot Komutları;$userAvatar[$clientID]]
+  $author[1;Angel Bot Komutları;$userAvatar[$clientID]]
   $addField[1;Diğer;\`\`\`js
 eval|vip\`\`\`]
   $addField[1;Yetkili;\`\`\`js

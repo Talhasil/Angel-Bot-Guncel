@@ -1,7 +1,7 @@
 module.exports = {
 name:"say",
 code:`
-$author[1;Flora;$serverIcon]
+$author[1;ANGEL;$serverIcon]
 $description[1;
 
 \`•\` **Sunucumuzda Toplam** \`$membersCount\` **Kişi Bulunmakta**

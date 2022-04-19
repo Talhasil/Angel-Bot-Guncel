@@ -9,7 +9,7 @@ $description[1;<@$authorID> **Yeni Bir Anket Oluşturdu**
 
 Uygulanmasını İstiyorsanız <:flora_tick:950474824462004224> , İstemiyorsanız <:flora_cross:950475138778943588> Tepkisine Tıklayınız]
 $color[1;RANDOM]
-$footer[1;Flora Development]
+$footer[1;Angel Code]
 $thumbnail[1;$serverIcon]
 $addReactions[<:flora_cross:950475138778943588>;<:flora_tick:950474824462004224>]
 $deleteCommand
