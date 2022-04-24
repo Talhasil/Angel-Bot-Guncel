@@ -8,7 +8,7 @@ $thumbnail[1;$userAvatar]
 $footer[1;$username Kullandı]
 $color[1;RANDOM]
 $addTimestamp[1;$datesTamp]
-$createChannel[$guildID;$messageSlice[1;10];text;;$channelID[$message[1]]]
+$createChannel[$guildID;$messageSlice[1;10];text;;$message[1]]
 $cooldown[5m;Sayın Yetkili 5 Dakikada Bir Kod Ekleyebilirsin]
 $onlyIf[$hasRoles[$guildID;$authorID;940931380106379295]==true;Yetkin Yok Güzelim]
 `} 
