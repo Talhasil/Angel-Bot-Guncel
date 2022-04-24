@@ -173,3 +173,42 @@ code:`$description[1;<@$mentioned[1;yes]>] $image[1;$getUserBanner[$mentioned[1;
   
   `
   })
+
+
+bot.command({
+name:"saas-aç",
+code:`
+$author[1;$userTag;$userAvatar[$authorID]]
+$color[1;RANDOM]
+$description[1;**$customEmoji[evet]・Başarıyla Sa As Sistemini Aktif Ettin**]
+$setServerVar[saas;açık]
+$onlyIf[$getServerVar[saas]!=açık;{newEmbed:{description:**$customEmoji[yasak] <@$authorID>,Selam Sistemi Zaten Aktif Kapatmak İçin \`?saas-kapat\`**}{color:RANDOM}}]
+$onlyPerms[managemessages;{newEmbed:{description:**$customEmoji[yasak] Bu Komutu Kullanmak İçin \`Mesajları Yönet\` Yetkin Olmalı**}{color:RANDOM}}]
+$suppressErrors
+`
+}) 
+
+bot.command({
+name:"saas-kapat",
+code:`
+$author[1;$userTag;$userAvatar[$authorID]]
+$color[1;RANDOM]
+$description[1;**$customEmoji[evet]・Başarıyla Sa As Sistemini Kapadın**]
+$setServerVar[saas;kapalı]
+$onlyIf[$getServerVar[saas]!=kapalı;{newEmbed:{description:**$customEmoji[yasak] <@$authorID>,Selam Sistemi Zaten Kapalı Açmak İçin \`?saas-aç\`**}{color:RANDOM}}]
+$onlyPerms[managemessages;{newEmbed:{description:**$customEmoji[yasak] Bu Komutu Kullanmak İçin \`Mesajları Yönet\` Yetkin Olmalı**}{color:RANDOM}}]
+$suppressErrors
+`
+}) 
+
+bot.command({
+  name:"sa",
+  code:`
+  $onlyIf[$message!=sa;**$customEmoji[pikacu] <@$authorID> Aleyküm Selam Hoşgeldin**]
+  $onlyIf[$getServerVar[saas]==açık;]`,
+  nonPrefixed: true
+})  
+
+bot.variables({
+saas:"kapalı",
+})  
