@@ -166,11 +166,6 @@ bot.banRemoveCommand({
   })
 bot.onBanRemove() 
 
-bot.joinCommand({
-channel:"",
-code:`$sendDM[https://api.popcat.xyz/welcomecard?background=https://cdn.discordapp.com/attachments/850808002545319957/859359637106065408/bg.png&text1=$uri[$usertag;encode]&text2=$uri[$serverName;encode]'e+Hoşgeldin&text3=%C3%9Cye+$membersCount&avatar=$replaceText[$authorAvatar;.webp;.png];$authorID]
-$sendDM[<a:whitehearts:942004416037408799> Flora Development Sunucumuza Hoşgeldin <#954099561897525348> ve <#940990026987212850> Kanallarını Kontrol Etmeyi Unutma <a:whitehearts:942004416037408799>]`})
-
 bot.command({
 name: "banner",
 code:`$description[1;<@$mentioned[1;yes]>] $image[1;$getUserBanner[$mentioned[1;yes]]] $footer[1;$userTag Tarafından İstendi]
