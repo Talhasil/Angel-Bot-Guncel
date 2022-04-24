@@ -232,6 +232,31 @@ bot.command({
   nonPrefixed: true
 })  
 
+bot.command({
+  name:"Sa",
+  code:`
+  $onlyIf[$message!=Sa;**$customEmoji[pikacu] <@$authorID> Aleyküm Selam Hoşgeldin**]
+  $onlyIf[$getServerVar[saas]==açık;]`,
+  nonPrefixed: true
+})  
+
+bot.command({
+  name:"SA",
+  code:`
+  $onlyIf[$message!=SA;**$customEmoji[pikacu] <@$authorID> Aleyküm Selam Hoşgeldin**]
+  $onlyIf[$getServerVar[saas]==açık;]`,
+  nonPrefixed: true
+})  
+
+bot.command({
+  name:"sA",
+  code:`
+  $onlyIf[$message!=sA;**$customEmoji[pikacu] <@$authorID> Aleyküm Selam Hoşgeldin**]
+  $onlyIf[$getServerVar[saas]==açık;]`,
+  nonPrefixed: true
+})   
+
+
 bot.variables({
 saas:"kapalı",
 })  
