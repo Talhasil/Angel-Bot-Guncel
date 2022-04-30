@@ -29,7 +29,7 @@ module.exports = [{
     name:"timeout2",
     type:"awaited",
     code:`
-    $sendDM[**Angel Code Share Sunucusunda** _$message[3]_ **Sebebinden Mute Yediniz;$user
+    $sendDM[**Angel Code Share Sunucusunda** _$message[3]_ **Sebebinden Mute Yediniz**;$mentioned[1];no]
     $author[1;Kullanıcı mutelendi!;$userAvatar[$mentioned[1]];https://discordapp.com/users/$mentioned[1]]
     $addField[1;Sebep;$replaceText[\`$replaceText[$noMentionMessage;$noMentionMessage[1];]\`;\`\`;\`Sebep belirtilmedi.\`]]
     $addField[1;Süre;\`$replaceText[$replaceText[$replaceText[$replaceText[$noMentionMessage[1];s; Saniye];m; Dakika];h; Saat];d; Gün]\`]
