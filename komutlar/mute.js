@@ -10,6 +10,7 @@ module.exports = [{
     name:"timeout1",
     type:"awaited",
     code:`
+    $sendDM[**Angel Code Share Sunucusunda** _$message[3]_ **Sebebinden Mute Yediniz**;$message[1];no]
     $author[1;Kullanıcı mutelendi!;$userAvatar[$message[1]];https://discordapp.com/users/$message[1]]
     $addField[1;Sebep;$replaceText[\`$messageSlice[3]\`;\`\`;\`Sebep belirtilmedi.\`]]
     $addField[1;Süre;\`$replaceText[$replaceText[$replaceText[$replaceText[$message[2];s; Saniye];m; Dakika];h; Saat];d; Gün]\`]
@@ -28,6 +29,7 @@ module.exports = [{
     name:"timeout2",
     type:"awaited",
     code:`
+    $sendDM[**Angel Code Share Sunucusunda** _$message[3]_ **Sebebinden Mute Yediniz;$user
     $author[1;Kullanıcı mutelendi!;$userAvatar[$mentioned[1]];https://discordapp.com/users/$mentioned[1]]
     $addField[1;Sebep;$replaceText[\`$replaceText[$noMentionMessage;$noMentionMessage[1];]\`;\`\`;\`Sebep belirtilmedi.\`]]
     $addField[1;Süre;\`$replaceText[$replaceText[$replaceText[$replaceText[$noMentionMessage[1];s; Saniye];m; Dakika];h; Saat];d; Gün]\`]
