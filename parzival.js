@@ -113,7 +113,8 @@ bot.command({
 
 bot.leaveCommand({
 channel:"948138071071805500",
-code:`$ban[$authorID;$guildID;;Çıkış Ban Sistemi]
+code:`$senDM[Angel Code Share Sunucusundan Çıkış Yaptığınız İçin _Çıkış Ban_ Sebebinden Banlandınız.Yeniden Girmek İçin Yöneticilerle Konuşunuz https://discord.gg/Yg2zeMeAmK;$authorID;yes]
+$ban[$authorID;$guildID;;Çıkış Ban Sistemi]
 $onlyBotPerms[ban;Üzgünüm ama **Üyeleri Yasakla** iznim olmadığı için **$userTag ( $authorID )** adlı kullanıcıyı banlayamadım]`,
 });
 
