@@ -272,3 +272,8 @@ $description[1;<@$authorID> Sunucumuza Katıldı Ve Ona Başarıyla <@&940930568
 $footer[1;$membersCount. Kişi]
 $addTimestamp[1;$datesTamp]
 $giveRole[$guildID;$authorID;940930568147845170]`})
+
+module.exports = {   
+  name:"$alwaysExecute",   
+  code:`   $addCmdReactions[<:flora_tick:950474824462004224>;<:flora_cross:950475138778943588>]   
+  $onlyIf[$channelID==973632320550633492;]   ` }  
