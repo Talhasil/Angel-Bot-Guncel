@@ -108,7 +108,8 @@ bot.command({
   $onlyIf[$checkContains[$channelID;944985537482219540]==false;]
   $onlyIf[$checkContains[$toLowercase[$message];https://;discord.gg/;discord.com/;gg/;http://;.glitch.me;.repl.co;.com;.xyz;.tk;dis.gd/]==true;]
   $onlyIf[$hasPerms[$guildID;$authorID;admin]==false;]
-  $onlyIf[$hasRoles[$guildID;$authorID;940931380106379295]==false;]  `
+  $onlyIf[$hasRoles[$guildID;$authorID;940931380106379295]==false;]  
+  $onlyIf[$channelID[973632320550633492]==false;]`
   })
 
 bot.leaveCommand({
