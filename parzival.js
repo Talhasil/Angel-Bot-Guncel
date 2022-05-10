@@ -261,3 +261,14 @@ bot.command({
 bot.variables({
 saas:"kapalı",
 })  
+
+bot.joinCommand({
+channel:"954101077551247381",
+code:`
+$color[1;08637E]
+$author[1;Üyeye Rol Verildi]
+$thumbnail[1;$userAvatar[$authorID]
+$description[1;<@$authorID> Sunucumuza Katıldı Ve Ona Başarıyla <@&940930568147845170> Rolü Verildi]
+$footer[1;$membersCount. Kişi]
+$addTimestamp[1;$datesTamp]
+$giveRole[$guildID;$authorID;940930568147845170]`})
