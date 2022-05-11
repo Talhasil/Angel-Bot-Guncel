@@ -36,7 +36,7 @@ bot.variables({
   tavsiyelog:"941959571335938068",
   admin:"940932232456052756",
   staff:"940931897314406491",
-  tkategori:"940988399525969961",
+  tkategori:"973917762709782528",
   prefix:".",
   snipe1:"",
   snipe2:"",
