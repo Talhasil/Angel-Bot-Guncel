@@ -13,4 +13,4 @@ module.exports = {
   $onlyIf[$isNumber[$message[1]]==true;$getServerVar[cross] <@$authorID>, Kullanıcı ID'si gir.]
   $onlyForRoles[$getServerVar[banhammer];$getServerVar[admin];$getServerVar[cross] <@$authorID>, Bunu kullanamazsın.]
 `
-  }
+}
